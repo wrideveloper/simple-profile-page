@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.column {
+    display: inline-block;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Style For Navigation */
+.nav {
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-bottom: solid 2px #486bff;
+}
+
+.nav h1 {
+    color: #272727;
+    font-size: 18px;
+}
+
+/* Style For Content */
+.content {
+    height: 100%;
+}
+
+/* Style For Profile Section */
+.profile-section {
+    width: 300px;
+    height: 100%;
+    background-color: #5eaacc;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profile-photo {
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px white;
+}
+
+.profile-name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-detail {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.profile-follow {
+    background-color: #2683b8;
+    color: white;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.profile-follow:hover {
+    background-color: white;
+    color: #4c99b8;
+    transition: all 0.3s;
+}
